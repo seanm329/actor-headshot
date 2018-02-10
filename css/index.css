@@ -1,16 +1,16 @@
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .email {
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 nav ul {
 text-align: center;
-font-size: 3em;
+font-size: 1.5em;
 
 }
 
@@ -20,10 +20,17 @@ nav li {
 
 img {
   float:right;
-  width: 50%;
+  width: 40%;
 }
 
 p {
   float: left;
-  font-size: 2em;
+  font-size: 1.2em;
+}
+
+body {
+  height: 70%;
+  width: 50%;
+  padding: 2em;
+  margin: 0 auto;
 }
