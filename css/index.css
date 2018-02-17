@@ -1,20 +1,32 @@
 body {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/dandelion-seeds-water-droplets.jpg");
 }
 
-.container-all {
-  background-color: #023131;
+#container-site {
+  background: black;
+  max-width: 480px;
+  border: 1px solid white;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-box-shadow: inset 3px 3px 3px 0 0 #a8d4e0;
+  box-shadow: inset 3px 3px 0 0 #a8d4e0;
+  -moz-box-shadow: inset 3px 3px 0 0 #a8d4e0;
 }
 
+/* HEADER */
 header {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: space-around;
   align-items: center;
 }
 
-header .heading {
+header .heading h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #a8d4e0;
 }
@@ -43,20 +55,11 @@ header a:hover {
 }
 
 .main-nav .menu {
-  list-style: none;               // strip of bullets
-  padding-left: 0;                // remove padding
+  list-style: none;               /* strip of bullets */
+  padding-left: 0;                /* remove padding */
   width: 400px;
   display: flex;
   justify-content: center;
-}
-
-ul {
-  padding-left: 0;                // eeded because webkit is inserting unwanted padding
-}
-
-.main-nav .menu li {
-  padding: .25em .5em;
-  background-color: black;
 }
 
 .main-nav .fa {
@@ -70,43 +73,59 @@ ul {
   display: inline-block;
 }
 
-.main-nav h4, .main-nav p {
-  margin: 0;
-}
-
-.main-nav p {
-  font-size: 1em;
-}
-
-a {
-  color: white;
-}
-
-.main-nav .menu a:link {
-  text-decoration: none;
-}
-
 .main-nav .menu .active {
   text-decoration: none;
   background-color: #5191a3;
 }
 
-.main-nav .menu a:hover {
+.main-nav .menu h4, .main-nav .menu p {
+  margin: 0;
+}
+
+.main-nav .menu p {
+  font-size: 1em;
+}
+
+.main-nav .menu ul {
+  padding-left: 0;                /* needed because webkit is inserting unwanted padding */
+}
+
+.main-nav .menu li {
+  padding: .25em .5em;
+  background-color: black;
+}
+
+.main-nav a {
+  color: white;
+}
+
+.main-nav a:link {
+  text-decoration: none;
+}
+
+.main-nav a:hover {
   text-decoration: none;
   background-color: #003b4c;
 }
+/* ============ END HEADER ========== */
 
-.headshot img {
-  float: right;
-  min-width: 300px;
-  max-width: 460px;
+/* ============ Content ============= */
+.container-fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em 5em;
 }
 
 .quote p {
-  color: white;
+  color:  lime;
   float: left;
   font-size: 2.2em;
   font-style: italic;
-  margin-left: 6em;
-  margin-top: 4em;
+  padding-right: 0.5em;
 }
+.headshot img {
+  max-width: 300px;
+}
+
+/* =========== COLORS ==========*/
