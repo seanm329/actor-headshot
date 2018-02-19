@@ -10,7 +10,7 @@ body {
   text-shadow: 0 1px 0 #fff;
   background-image: url("../images/pool-water-texture-11279304157Audq.jpg");
   overflow: auto;
-  min-width: 95.3125em;
+  max-width: 500px;
 }
 
 #resHeader {

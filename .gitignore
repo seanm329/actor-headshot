@@ -2,3 +2,11 @@
 *.css.map
 node_modules/
 
+.htaccess
+404.shtml
+godaddy-home.html
+home.html
+john/
+layout-styles.css
+seanm329/
+
