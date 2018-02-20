@@ -8,7 +8,7 @@ body {
 
 #container-site {
   background: black;
-  max-width: 350px;
+  width: 350px;
   border: 1px solid white;
   -webkit-border-radius: 16px;
   border-radius: 16px;
@@ -28,7 +28,6 @@ header {
 
 header .heading h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   color: #a8d4e0;
 }

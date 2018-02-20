@@ -10,12 +10,11 @@ body {
   text-shadow: 0 1px 0 #fff;
   background-image: url("../images/pool-water-texture-11279304157Audq.jpg");
   overflow: auto;
-  max-width: 400px;
 }
-
+/*
 #container-site {
   max-width: 400px;
-}
+}*/
 
 #resHeader {
   position: fixed;
@@ -68,7 +67,7 @@ h1, h2, h3 {
   /* margin: 80px .625em 20px .625em; */
   align-self: center;
   min-height: 470px;
-  min-width: 455px;
+  width: 375px;
   padding: 0 .625em;
   background: #f6f6f6;
   border: 1px solid #c2c2c2;
@@ -158,7 +157,7 @@ td {
 }
 
 td.mediaIcon {
-  width: 1em;
+  width: 0em;
   padding: .125em 0 0 .3125em;
   border-radius: .25em 0 0 .25em;
   -moz-border-radius: .25em 0 0 .25em;
@@ -166,18 +165,17 @@ td.mediaIcon {
 }
 
 td.name {
-  min-width: 12.5em;
+  min-width: 8.5em;
 }
 
 td.role {
   text-align: left;
-  min-width: 11em;
+  min-width: 8em;
 }
 
 td.company {
   text-align: right;
-  min-width: 9em;
-  width: 100%;
+  min-width: 8em;
   -webkit-border-radius: 0 .25em .25em 0;
   border-radius: 0 .25em .25em 0;
   -moz-border-radius: 0 .25em .25em 0;
