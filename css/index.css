@@ -28,6 +28,8 @@ header {
 
 header .heading h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
   color: #a8d4e0;
 }
 
@@ -57,7 +59,6 @@ header a:hover {
 .main-nav .menu {
   list-style: none;               /* strip of bullets */
   padding-left: 0;                /* remove padding */
-  width: 400px;
   display: flex;
   justify-content: center;
 }
@@ -114,7 +115,7 @@ header a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.5em 5em;
+  padding: 1em;
 }
 
 .quote p {
@@ -128,74 +129,3 @@ header a:hover {
   max-width: 250px;
 }
 
-/* =========== COLORS ==========*/
-
-
-
-
-
-/* Portrait */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) {
-    .container-fb {
-      padding: .5em;
-    }
-    .quote p {
-      font-size: 1.5em;
-    }
-    .headshot img {
-      max-width: 250px;
-    }
-}
-
-/* Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: landscape) {
-
-}
-
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-/* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-}
