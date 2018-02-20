@@ -118,16 +118,11 @@ header a:hover {
 
 .quote p {
   color:  lime;
-  /* float: left; */
+  float: left;
   font-size: 1em;
   font-style: italic;
   padding-right: 0.75em;
-  flex: 1 1 auto;
 }
-.container-hs {
-  flex: 1 1 auto;
-}
-
 .container-hs img {
   max-width: 250px;
 }
