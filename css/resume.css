@@ -67,7 +67,7 @@ h1, h2, h3 {
   /* margin: 80px .625em 20px .625em; */
   align-self: center;
   min-height: 470px;
-  width: 375px;
+  width: 335px;
   padding: 0 .625em;
   background: #f6f6f6;
   border: 1px solid #c2c2c2;
@@ -84,6 +84,8 @@ h1, h2, h3 {
   text-align: center;
   height: 2em;
   font-weight: bold;
+  -webkit-margin-before:0em;
+  -webkit-margin-after: 0em;
   -webkit-padding-start: 0px;
 }
 
@@ -142,7 +144,7 @@ tr:nth-child(even) {
 tr .heading h4 {
   font-weight: bold;
   font-size: 1em;
-  padding-top: .75em;
+  -webkit-margin-before: .75em;
   -webkit-margin-after: .25em;
   background: transparent!important;
 }
@@ -156,15 +158,11 @@ td {
   padding: 0 .3125em;
 }
 
-td.mediaIcon {
-  width: 0em;
+td.name {
   padding: .125em 0 0 .3125em;
   border-radius: .25em 0 0 .25em;
   -moz-border-radius: .25em 0 0 .25em;
-  -webkit-border-radius: .25em 0 0 .25em;
-}
-
-td.name {
+  -webkit-border-radius: .25em 0 0 .25e
   min-width: 8.5em;
 }
 
