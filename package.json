@@ -1,0 +1,25 @@
+{
+  "name": "actor-headshot",
+  "version": "1.0.0",
+  "description": "Headshot site for an actor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jmcglaughlin@github.com/seanm329/actor-headshot.git"
+  },
+  "keywords": [
+    "actor-site"
+  ],
+  "author": "Sean P Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanm329/actor-headshot/issues"
+  },
+  "homepage": "https://github.com/seanm329/actor-headshot#readme",
+  "dependencies": {
+    "lightbox2": "^2.10.0"
+  }
+}
