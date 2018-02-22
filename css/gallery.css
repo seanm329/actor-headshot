@@ -2,9 +2,45 @@
   display: flex;
   justify-content: center;
   align-content: space-around;
+  flex-wrap: wrap;
   padding-bottom: .333em;
 }
 
 .gallery img {
-  max-height: 65px;
+  max-height: 6em;
+}
+
+@media (min-width: 30.07em)  {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  #container-site {
+    width: 30em;
+  }
+
+  .gallery img {
+    max-height: 12.7em;
+  }
+}
+
+@media (min-width:641px)  { 
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  #container-site {
+    width: 40.07em;
+  }
+
+  .gallery img {
+    max-height: 17em;
+  }
+
+}
+
+@media (min-width:961px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #container-site {
+    width: 60.07em;
+  }
+
+  .gallery img {
+    max-height: 24em;
+  }
+ 
 }
