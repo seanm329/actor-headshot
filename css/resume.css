@@ -195,7 +195,7 @@ td.company {
   }
 
   #container-resume {
-    width: 40em;
+    width: 38em;
   }
 }
 
@@ -203,6 +203,10 @@ td.company {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
   #container-site {
     width: 42em;
+  }
+
+  #container-resume {
+    width: 40em;
   }
 }
 

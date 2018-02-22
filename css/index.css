@@ -7,8 +7,12 @@ body {
 }
 
 #container-site {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background: black;
-  width: 29em;
+  width: 30em;
   border: 1px solid white;
   -webkit-border-radius: 1em;
   border-radius: 1em;
@@ -19,13 +23,6 @@ body {
 }
 
 /* HEADER */
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 header .heading h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   -webkit-margin-after: 0;
