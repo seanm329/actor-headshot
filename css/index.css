@@ -8,14 +8,14 @@ body {
 
 #container-site {
   background: black;
-  width: 350px;
+  width: 29em;
   border: 1px solid white;
-  -webkit-border-radius: 16px;
-  border-radius: 16px;
-  -moz-border-radius: 16px;
-  -webkit-box-shadow: inset 3px 3px 3px 0 0 #a8d4e0;
-  box-shadow: inset 3px 3px 0 0 #a8d4e0;
-  -moz-box-shadow: inset 3px 3px 0 0 #a8d4e0;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-box-shadow: inset .1875em .1875em .1875em 0 0 #a8d4e0;
+  box-shadow: inset .1875em .1875em 0 0 #a8d4e0;
+  -moz-box-shadow: inset .1875em .1875em 0 0 #a8d4e0;
 }
 
 /* HEADER */
@@ -125,6 +125,6 @@ header a:hover {
   padding-right: 0.75em;
 }
 .container-hs img {
-  max-width: 250px;
+  max-width: 15.625em; 
 }
 
