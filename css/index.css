@@ -109,7 +109,7 @@ header a:hover {
 /* ============ Content ============= */
 .container-fb {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 1em;
 }
