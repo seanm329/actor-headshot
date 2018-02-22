@@ -7,7 +7,7 @@
 }
 
 .gallery img {
-  max-height: 6em;
+  max-height: 8.2em;
 }
 
 @media (min-width: 30.07em)  {
@@ -21,10 +21,10 @@
   }
 }
 
-@media (min-width:641px)  { 
+@media (min-width: 40.07em)  { 
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
   #container-site {
-    width: 40.07em;
+    width: 40em;
   }
 
   .gallery img {
@@ -33,10 +33,10 @@
 
 }
 
-@media (min-width:961px)  { 
+@media (min-width: 60.07em)  { 
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   #container-site {
-    width: 60.07em;
+    width: 60em;
   }
 
   .gallery img {

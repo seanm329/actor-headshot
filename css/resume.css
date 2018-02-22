@@ -65,8 +65,8 @@ h1, h2, h3 {
 #container-resume {
   /* margin: 80px .625em 20px .625em; */
   align-self: center;
-  min-height: 470px;
-  width: 335px;
+  min-height: 29.375em;
+  width: 30em;
   padding: 0 .625em;
   background: #f6f6f6;
   border: 1px solid #c2c2c2;
@@ -187,3 +187,29 @@ td.company {
 .tbl-light {
   background: #f6f6f6;
 }
+
+@media (min-width: 30.07em)  {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  #container-site {
+    width: 30em;
+  }
+
+  #container-resume {
+    width: 30em;
+  }
+}
+
+@media (min-width: 40.07em)  {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  #container-site {
+    width: 40em;
+  }
+}
+
+@media (min-width: 60.07em;)  {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #container-site {
+    width: 60em;
+  }
+}
+
